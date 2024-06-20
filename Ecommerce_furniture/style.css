@@ -1,0 +1,445 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+:root{
+    --color:#3f3f46;
+    --bgcolor:white;
+
+}
+
+body{
+    margin:0;
+    background-color:var(--bgcolor);
+    font-family: "Poppins", sans-serif;
+    background-size:cover;
+    background-repeat:no-repeat;
+    color:var(--color);
+}
+
+.first{
+    width:100%;
+    height:730px;
+    background-image:url('images/firstpage.jpg');
+    background-size:cover;
+    margin-bottom:100px;
+}
+
+#logo{
+    margin-left:40px;
+    font-size:40px;
+    color:black;
+}
+
+.nav-cen{
+    margin-left:40px;
+}
+
+.nav-right{
+    margin-right:40px;
+    padding:20px;
+}
+
+.header button{
+    padding:10px;
+    margin-left:15px;
+    width:90px;
+    height:45px;
+    border-radius:20px;
+    border:none;
+    box-shadow:0 0 10px 0 var(--color);
+    font-weight:bold;
+}
+
+.header,.nav-right,.nav-cen{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+
+.nav-right li{
+    padding:20px;
+    list-style:none;
+    font-size:20px;
+}
+
+.nav-right li i{
+    height:20px;
+    width:20px;
+    box-shadow:0 0 10px 0 var(--color);
+    text-align:center;
+    padding:12px;
+    border-radius:50%;
+    color:color(--color);
+}
+
+.nav-right li i:hover,.nav-right button:hover,.about button:hover{
+    color:white;
+    background-color:var(--color);
+    transition:all 0.2s linear;
+}
+
+.nav-cen a{
+    margin-top:12px;
+    margin-left:60px;
+    font-size:20px;
+    text-decoration:none;
+    font-size:20px;
+    font-weight:bold;
+    color:var(--color);
+}
+
+.nav-cen a:hover{
+    color:white;
+    transition:all 0.1s linear;
+    border-bottom:2px solid var(--color);
+}
+
+.about{
+    margin-top:100px;
+    margin-left:50%;
+    color:var(--color);
+}
+
+.about button{
+    margin:40px auto;
+    display:block;
+    height:60px;
+    width:150px;
+    border-radius:20px;
+    border:none;
+    margin-right:350px;
+    font-weight:600;
+    color:var(--color);
+    box-shadow:0 0 10px 0 var(--color);
+}
+
+.about i{
+    margin-top:10px;
+    font-size:60px;
+    margin-left:315px;
+}
+
+.explore{
+    width:100%;
+    height:730px;
+}
+
+.explore h1{
+    margin-left:40px;
+}
+
+:is(.flex1,.flex2) .flex{
+    height:400px;
+    width:360px;
+    margin:10px;
+    background-color:var(--color);
+    color:white;
+    box-shadow:0 0 30px 0 var(--color);
+    border-radius:15px;
+    overflow:hidden;
+    opacity:0.8;
+}
+
+:is(.flex1,.flex2) .flex:hover{
+    box-shadow: 0 0 30px 0 white;
+    opacity:1;
+    transition:all 0.2s linear;
+}
+
+.flex1,.flex2{
+    display:flex;
+    margin:15px auto;
+}
+
+:is(.flex1,.flex2) .flex img{
+    width:100%;
+    height:320px;
+}
+
+.content{
+    display:flex;
+    width:100%;
+    flex-direction:row;
+    justify-content:space-evenly;
+}
+
+.flex h3{
+    text-align:center;
+    margin:5px;
+}
+
+.t{
+    color:yellow;
+}
+
+.popular{
+    margin-top: 400px;;
+    width:100%;
+    height:915px;
+}
+
+.popular h1{
+    margin-left:40px;
+}
+
+.popular .pop-pro{
+    display:flex;
+}
+
+.popular .pop-pro .pop{
+    width:400px;
+    height:600px;
+    background-color:var(--color);
+    color:white;
+    margin:10px;
+    box-shadow:0 0 30px 0 var(--color);
+    border-radius:15px;
+    overflow:hidden;
+    opacity:0.8;
+}
+
+.popular .pop-pro .pop:hover{
+    box-shadow: 0 0 30px 0 white;
+    opacity:1;
+    transition:all 0.2s linear;
+}
+
+.popular .pop-pro .pop img{
+    width:100%;
+    height:480px;
+}
+
+.pop h3{
+    text-align:center;
+    margin-bottom:0;
+}
+
+.browse{
+    width:100%;
+    height:600px;
+}
+
+.brow{
+    display:flex;
+    text-align: center;
+    align-items:center;
+    justify-content: center;
+    padding:20px;
+}
+
+.browse-rgn{
+    width:400px;
+    height:500px;
+    font-size:20px;
+    font-weight:600;
+    margin:20px;
+    box-shadow:0 0 30px 0 var(--color);
+    border-radius:15px;
+    overflow:hidden;
+    opacity:0.8;
+}
+
+.browse-rgn:hover{
+    opacity:1;
+    box-shadow:0 0 30px 0 white;
+    transition:all 0.2s linear;
+}
+
+.browse-rgn img{
+    width:100%;
+    height:100%;
+}
+
+.brow-top{
+    text-align:center;
+    padding:10px;
+}
+
+.brow-top h1{
+    margin-bottom:40px;
+}
+
+.brow-btn{
+    margin:20px;
+}
+
+.brow-btn a{
+    box-shadow:0 0 10px 0 var(--color);
+}
+
+.brow-btn a:hover{
+    color:white;
+    font-weight:bold;
+    background-color:var(--color);
+    transition:all 0.2s linear;
+}
+
+.brow-btn a{
+    border:1px solid var(--color);
+    border-radius:20px;
+    margin:15px;
+    text-decoration:none;
+    color:var(--color);
+}
+
+.brow-top a{
+    padding:20px;
+}
+
+.choose{
+    margin-top: 400px;
+    width:100%;
+    height:900px;
+    background-image:url('images/lastpage.jpg');
+    background-size:cover;
+}
+
+.choose h1,.choose h4{
+    margin:0 40px;
+}
+
+.choose-icons{
+    display:flex;
+    flex-direction:row;
+}
+
+.choose-icons div{
+    margin:30px;
+    height:500px;
+    width:300px;
+    text-align: center;
+}
+
+.choose-icons div i{
+    height:60px;
+    width:60px;
+    background-color:var(--color);
+    color:white;
+    font-size:60px;
+    margin:40px;
+    padding:50px;
+    border-radius:50%;
+    box-shadow:0 0 10px 0 var(--color);
+}
+
+.choose-icons div i:hover{
+    background-color:white;
+    color:var(--color);
+    transition:all 0.2s linear;
+}
+
+.contact{
+    width:100%;
+    height:700px;
+}
+
+.contact .top{
+    margin-top:10px;
+    display:flex;
+    padding:40px;
+}
+
+.contact .top .con{
+    margin-top:10%;
+    width:50%;
+}
+
+.contact .top .con .last-icons{
+    display:flex;
+    margin-top:50px;
+    justify-content: space-evenly;
+    font-size:40px;
+}
+
+.contact .top .con .last-icons div{
+    height:60px;
+    width:60px;
+    background-color:var(--color);
+    color:var(--bgcolor);
+    text-align:center;
+    border-radius:50%;
+    box-shadow:0 0 10px 0 var(--color);
+}
+
+.contact .top .con .last-icons div:hover{
+    background-color:white;
+    color:var(--color);
+    transition:all 0.2s linear;
+}
+
+.contact .top .inputs{
+    margin-top:10%;
+    width:50%;
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items:center;
+}
+
+.contact input,.contact button{
+    width:60%;
+    height:35px;
+}
+
+.contact :is(input,textarea)::placeholder{
+    color:white;
+}
+
+.contact textarea{
+    height:60px;
+    width:60%;
+}
+
+.contact button{
+    height:60px;
+    width:50%;
+    font-weight:bold;
+    color:white;
+}
+
+.contact :is(button,input,textarea){
+    margin:10px;
+    border-radius:10px;
+    border:none;
+    background-color:rgba(0,0,0,0.6);
+    padding:10px;
+    box-shadow:0 0 10px 0 var(--color);
+}
+
+.contact :is(input,textarea):hover{
+    background-color:rgba(0,0,0,0.3);
+    transition:all 0.2s linear;
+}
+
+.contact button:hover{
+    color:black;
+    background-color:white;
+    transition:all 0.2s linear;
+}
+
+.footer{
+    width:100%;
+    height:250px;
+    margin-top:30px;
+    background-color:var(--color);
+    color:white;
+}
+
+.footer{
+    display:flex;
+    justify-content:space-evenly;
+    text-align:center;
+    padding-bottom:10px;
+}
+
+.copy{
+    text-align:center;
+}
+
+.copy i{
+    margin-right:10px;
+    font-size:18px;
+    margin-bottom:10px;
+}
+
+
+
