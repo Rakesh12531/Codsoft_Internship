@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="calc.webp">
+    <title>Calc | Rakesh</title>
+</head>
+<body>
+
+    <div class="header">
+        <h1 id="logo">Calc</h1>
+    </div>
+
+    <div class="box">
+        <div class="scr">
+            <input type="text" id="dis" readonly>
+        </div>
+        <div class="buttons">
+            <button onclick="addToDis('1')">1</button>
+            <button onclick="addToDis('2')">2</button>
+            <button onclick="addToDis('3')">3</button>
+            <button onclick="addToDis('+')" class="op">+</button>
+            <button onclick="addToDis('4')">4</button>
+            <button onclick="addToDis('5')">5</button>
+            <button onclick="addToDis('6')">6</button>
+            <button onclick="addToDis('-')" class="op">-</button>
+            <button onclick="addToDis('7')">7</button>
+            <button onclick="addToDis('8')">8</button>
+            <button onclick="addToDis('9')">9</button>
+            <button onclick="addToDis('/')" class="op">/</button>
+            <button onclick="disClear()" class="c">C</button>
+            <button onclick="addToDis('0')">0</button>
+            <button onclick="calculate()">=</button>
+            <button onclick="addToDis('*')" class="op">x</button>
+        </div>
+    </div>
+    <div class="footer">
+        <h5><i class="fa-solid fa-user"></i>Rakesh Raj S</h5>
+        <h5><i class="fa-brands fa-linkedin-in"></i>www.linkedin.com/in/rakesh531</h5>
+        <h5><i class="fa-solid fa-envelope"></i>rakeshraj12531@gmail.coms</h5>
+    </div>
+    <script src="https://kit.fontawesome.com/313009947d.js" crossorigin="anonymous"></script>
+    <script src="index.js">
+    </script>
+</body>
+</html>
