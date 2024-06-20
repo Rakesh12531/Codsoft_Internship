@@ -1,0 +1,393 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+:root{
+    --bgcolor:#000000;
+    --color:white;
+    --nav:black;
+    --neon:#FF0000;
+}
+
+.text{
+    color:yellow;
+}
+
+.intro span{
+    color:var(--neon);
+}
+
+body{
+    margin:0;
+    padding:0;
+    background-color:var(--bgcolor);
+    color:var(--color);
+    font-family: "Poppins", sans-serif;
+}
+
+.header{
+    position:sticky;
+    top:0;
+    background-color:black;
+    height:75px;
+    border-bottom:1px solid white;
+}
+
+#logo{
+    margin-left:60px;
+    cursor:pointer;
+}
+
+.nav-bar{
+    display:flex;
+    justify-content: space-between;
+    margin-right:20px;
+}
+
+.nav{
+    margin-top:30px;
+}
+
+.nav a{
+    margin-right:40px;
+    font-size:20px;
+    text-decoration:none;
+    color:var(--color);
+    font-weight:500;
+    padding:10px;
+}
+
+.nav a:hover{
+    border-bottom:2px solid white;
+    color:var(--neon);
+    font-weight:800px;
+    transition:all 0.2s linear;
+}
+
+#home{
+    margin-top:80px;
+    display:flex;
+    flex-direction:row;
+    justify-content:space-evenly;
+    align-items:center;
+}
+
+.photo-border{
+    height:300px;
+    width:300px;
+    border:none;
+    border-radius: 50%;
+    box-shadow:0 0 20px 20px var(--bgcolor);
+    overflow:hidden;
+}
+
+img{
+    height:350px;
+    width:300px;
+}
+
+.intro .icon{
+    display:flex;
+    justify-content:space-evenly;
+    align-items:center;
+    font-size:30px;
+    margin-top:40px;
+}
+
+.intro .icon i{
+    height:60px;
+    width:60px;
+    box-sizing:border-box;
+    padding:15px;
+    text-align:center;
+    border-radius:50%;
+    box-shadow:0 0 30px 5px var(--neon);
+    cursor:pointer;
+}
+
+.intro .icon i:hover{
+    background-color:white;
+    color:var(--neon);
+    box-shadow:0 0 30px 5px white;
+    transition:all 0.2s linear;
+}
+
+.intro button{
+    margin-top:40px;
+    margin-left:90px;;
+    height:50px;
+    width:250px;
+    border:none;
+    border-radius:20px;
+    font-size:20px;
+    font-weight:700;
+    background-color: var(--neon);
+    box-shadow:0 0 60px 10px var(--neon);
+    color:white;
+    cursor:pointer;
+}
+
+.intro button:hover{
+    background-color:white;
+    color:var(--neon);
+    box-shadow:0 0 30px 5px white;
+    transition:all 0.2s linear;
+
+}
+
+.about1 span{
+    color:var(--neon);
+}
+
+.photo{
+    border-radius: 50%;
+    box-shadow:0 0 220px 40px var(--neon);
+}
+
+.pic{
+    border-radius: 50%;
+    box-shadow:0 0 220px 40px var(--neon);
+}
+
+#about{
+    display:flex;
+    flex-direction:row;
+    justify-content: space-around;
+    margin-top: 300px;
+    align-items:center;
+}
+
+#tskills{
+    margin-top:300px;
+    text-align:center;
+}
+
+.skill{
+    margin:0 auto;
+    height:500px;
+    width:800px;
+}
+
+.skill li{
+    list-style:none;
+    padding:10px;
+}
+
+.bar{
+    display:block;
+    height:20px;
+    width:100%;
+    background-color:rgba(255,255,255,0.5);
+    overflow:hidden;
+    border-radius:20px;
+    border:1px solid var(--black);
+    cursor:pointer;
+}
+
+.bar:hover{
+    box-shadow:0 0 50px 0 var(--neon);
+    transition:all 0.2s linear;
+}
+
+.bar span{
+    height:20px;
+    float:left;
+    border-radius: 20px;
+}
+
+.html{
+    height:20px;
+    width:80%;
+    background-color:var(--neon);
+
+}
+
+:is(.html,.css,.javascript,.java,.python,.c,.cplus):hover{
+    background-color:white;
+    transition:all 0.2s linear;
+}
+
+.css{
+    height:20px;
+    width:70%;
+    background-color:var(--neon);
+}
+
+.javascript{
+    height:20px;
+    width:60%;
+    background-color:var(--neon);
+}
+
+.python{
+    height:65px;
+    width:66%;
+    background-color:var(--neon);
+}
+
+.java{
+    height:20px;
+    width:68%;
+    background-color:var(--neon);
+}
+
+.c{
+    height:20px;
+    width:75%;
+    background-color:var(--neon);
+}
+
+.cplus{
+    height:20px;
+    width:72%;
+    background-color:var(--neon);
+}
+
+#project{
+    margin-left:40px;
+}
+
+:is(.flex1,.flex2) div{
+    height:350px;
+    width:500px;
+}
+
+:is(.flex1,.flex2) div img:hover{
+    box-shadow:0 0 50px 0px rgb(255,255,255);
+    transition:all 0.2s linear;
+}
+
+:is(.flex1,.flex2) div img{
+    width:90%;
+    height:70%;
+    box-shadow:0 0 30px 0px rgba(255,255,255,0.6);
+}
+
+:is(.flex1,.flex2){
+    display:flex;
+}
+
+:is(.flex1,.flex2) h3{
+    text-align:center;
+}
+
+.pro{
+    text-align:center;
+    margin-top:300px;
+}
+
+#contact{
+    display:flex;
+    margin-top:300px;
+    justify-content:space-around;
+    margin-bottom:100px;
+}
+
+#contact .outro{
+    display:flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items:center;
+}
+
+#contact .inputs{
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items:center;
+}
+
+.con-icons{
+    display:flex;
+    flex-direction:column;
+}
+
+.con-icons span{
+    padding:10px;
+}
+
+.con-icons span i{
+    color:var(--neon);
+    font-size:20px;
+    margin-right:20px;
+}
+
+.soc-icons{
+    margin-top:20px;
+    display:flex;
+    justify-content:space-evenly;
+}
+
+.soc-icons i{
+    height:30px;
+    width:30px;
+    border-radius:50%;
+    box-shadow:0 0 20px 0 var(--neon);
+    text-align:center;
+    font-size:28px;
+    padding:10px;
+}
+
+.soc-icons i:hover{
+    background-color:white;
+    color:var(--neon);
+    box-shadow:0 0 20px 0 white;
+    transition:all 0.2s linear;
+}
+
+.me{
+    color:var(--neon);
+}
+
+#contact .inputs input,#contact .inputs textarea{
+    margin-top:20px;
+    padding:15px;
+    height:40px;
+    width:200%;
+    border:none;
+    border-radius:10px;
+    background-color:rgba(0,0,0,0.5);
+    box-shadow:0 0 5px 0 white;
+    color:white;
+}
+
+#contact .inputs textarea{
+    height:100px;
+}
+
+#contact button{
+    margin-top:60px;
+    height:40px;
+    width:150px;
+    border-radius:20px;
+    color:black;
+    box-shadow:0 0 60px 10px var(--neon);
+    background-color:var(--neon);
+    font-weight:600;
+    border:none;
+}
+
+#contact button:hover{
+    color:var(--neon);
+    box-shadow:0 0 60px 10px white;
+    background-color:white;
+    font-weight:bold;
+    transition:all 0.2s linear;
+}
+
+.footer{
+    padding:10px;
+    text-align:center;
+    background-color:rgba(0,0,0,0.5);
+    height:60px;
+}
+
+
+input::placeholder,textarea::placeholder{
+    color:var(--neon);
+}
+
+#contact .inputs input:hover,#contact .inputs textarea:hover{
+    box-shadow:0 0 50px 0px rgb(255,255,255);
+    transition:all 0.2s linear;
+    background-color: rgba(255,255,255,0.2);
+}
